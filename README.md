@@ -1,11 +1,11 @@
 # Logo-Reveal
 
 This repository contains a JavaScript script used to create a dynamic stagger-grid animation with AnimeJS. 
-The script is designed to work with multiple containers on a web page, each containing a grid of items and an SVG element. The primary features include responsive grid creation, scroll-triggered animation, and adjustable visibility for SVG elements.
+The script is designed to work with multiple containers on a web page, each containing a grid of items and an SVG element. The primary features include responsive grid creation, scroll-triggered animation, and adjustable visibility for SVG elements.<br /><br /><br />
 <kbd>
 ![](https://github.com/FightingFalcon/Logo-Reveal/blob/main/logo_reveal_scroll_animation/gif/gif.gif)
 </kbd>
-Implementation Details
+<br /><br /><br />Implementation Details
 - The script targets all elements with the class .stagger-container.
 - Each container should have a .stagger-grid class for the grid items and may contain an SVG element.
 - Grid items are dynamically generated based on the viewport width and specified item size.
