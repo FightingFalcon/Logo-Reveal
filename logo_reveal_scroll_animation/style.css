@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.stagger-container {
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start; 
+  flex-direction: column;
+  background-color: white;
+}
+
+.stagger-grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(auto-fill, minmax(24px, 1fr)); */
+  justify-content: center;
+  margin: auto;
+  /* margin-left: -1ch;
+  margin-right: -1ch;  */
+}
+
+.svg-over-circle {
+  position: absolute; /* Absolute positioning for the SVG */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Smooth transition for the fade effect */
+}
+
+.new-section {
+  height: 100vh;
+  background-color: white;
+}
+
+:root {
+  --grid-item-color: black; 
+}
+
+.grid-item {
+  width: 20px;
+  height: 20px;
+  background-color: var(--grid-item-color);
+  margin: 2px;
+  clip-path: polygon(0% 40%, 30% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.bsb-logo {
+  width: 150px;
+  height: auto;
+}
+
+.cb-logo {
+  width: 150px;
+  height: auto;
+}
+
+.tt-logo {
+  width: 200px;
+  height: auto;
+}
+
+.cc-logo {
+  width: 200px;
+  height: auto;
+}
